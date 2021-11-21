@@ -39,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+        // TODO: movement based on local orientation
+
 
         // JUMPING
         if (Input.GetButtonDown("Jump") && isGrounded) velocity.y = Mathf.Sqrt(height * -2f * gravity);
