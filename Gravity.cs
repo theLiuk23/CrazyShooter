@@ -6,6 +6,7 @@ public class Gravity : MonoBehaviour
 {
     public CharacterController controller;
     public Vector3 velocity;
+    
     float gravity = -9.81f;
 
     // Start is called before the first frame update
